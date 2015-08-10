@@ -7,6 +7,4 @@ app.controller('weatherCtrl', function($scope, $location, weatherService) {
       $location.path(weatherBg + "/" + city);
     })
   }
-
-
 });
