@@ -1,6 +1,5 @@
 <video autoplay id="bgvid" loop muted>
-  <source ng-src="./videos/additional.webm#t=10" type="video/webm">
-  <source ng-src="./videos/additional.mp4#t=10" type="video/mp4">
+  <source ng-src="./videos/additional.mov" type="video/mp4">
 </video>
 
 <container>
@@ -10,10 +9,14 @@
     <br>
     <headline>{{weatherData[0].temp}}&deg;F</headline>
     <br>
-    High: {{weatherData[0].hiTemp}}&deg;F
+    High:
+    {{weatherData[0].hiTemp}}&deg;F
     <br>
-    Low: {{weatherData[0].loTemp}}&deg;F
+    Low:
+    {{weatherData[0].loTemp}}&deg;F
 
   </div>
 </container>
-<location>Location: <a href="#/">{{weatherData[0].name}}</a></location>
+<location>Location:
+  <a href="#/">{{weatherData[0].name}}</a>
+</location>

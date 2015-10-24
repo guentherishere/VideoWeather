@@ -47,18 +47,19 @@ a:visited {
 }
 .searchContainer {
   text-align: center;
-  padding-top: 25%;
   height: 100%;
   width: 100%;
   color: #FFFFFF;
 }
 .input {
-  padding: 10px;
-  border-radius: 25px;
   width: 25%;
-  border: solid 1px #dcdcdc;
-  transition: box-shadow 0.3s, border 0.3s;
-  color: #000000;
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+  .input:focus,
+  .input.focus {
+  border: solid 5px #969696;
 }
 button {
 	background-color:#ed8223;
